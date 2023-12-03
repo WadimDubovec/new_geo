@@ -1,0 +1,61 @@
+/* notification.css */
+
+/* Стили для notificationPopup
+   Уведомление для благодарности за обращение
+*/
+
+
+.notification {
+    width: 600px;
+    height: 280px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;  /* выравнивание текста внутри*/
+    z-index: 999;
+}
+
+.text-notification {
+    font-family: Montserrat-Bold, sans-serif; /* Имя шрифта, которое вы хотите использовать */
+    color: #171717;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Это важное свойство для центрирования!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Анимация исчезновения */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Применяем анимацию к классу fade-in */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Применяем анимацию к классу fade-out */
+.fade-out {
+    animation: fadeOut 0.5s ease-in-out;
+}

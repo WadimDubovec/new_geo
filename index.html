@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geodesy</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="popup.css" type="text/css">
+    <link rel="stylesheet" href="notificationSubmission.css" type="text/css">
+
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="lending">
+            <p>
+                <a href="#name_company" class="name_lending">
+                    NAME COMPANY
+                </a>
+            </p>
+        </div>
+
+        <div class="central_menu">
+            <a href="#services" class="punk_1">УСЛУГИ</a>
+            <a href="#reviews" class="punk_1">ОТЗЫВЫ</a>
+            <a href="#partners" class="punk_1">ПАРТНЁРЫ</a>
+        </div>
+
+        <div class="consultation">
+            <button class="consultation-button">Обратная<br>связь</button>
+        </div>
+    </div>
+
+    <form action="#" id="form" class="form_body">
+
+        <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="geodesist.by">
+        <input type="hidden" name="admin_email" value="haleckop2@gmail.com">
+        <input type="hidden" name="form_subject" value="gg">
+        <!-- END Hidden Required Fields -->
+
+        <div class="popup" id="consultationPopup">
+            <label for="nameInput"><input type="text" id="nameInput" name="name" placeholder="Введите ваше имя:" class="popup-input-name popup-input _req _name" autocomplete="name"></label>
+            <label for="phoneInput"><input type="text" id="phoneInput" name="phone" pattern="\+375[0-9]{2}[0-9]{7}" placeholder="Введите ваш номер телефона: (+375XXXXXXXXX)" class="popup-input-number-phone popup-input _req _phone" autocomplete="tel"></label>
+            <label for="questionInput"><textarea id="questionInput" name="message" placeholder="Введите вопрос:" class="popup-input-question popup-input _req" autocomplete="off"></textarea></label>
+            <button id="submitButton" class="button-send">Отправить</button>
+        </div>
+    </form>
+
+    <div class="notification" id="notificationPopup">
+        <p class="text-notification">
+            Спасибо за обращение!
+            <br> Вам скоро перезвонят
+        </p>
+    </div>
+
+
+    <div class="block block_1" id="name_company">
+        <div class="block_container">
+            <p class="block_text block_text_1">
+                О компании
+            </p>
+            <p class="text-about-the-company">
+                Мы работаем с 2012 года<br>
+                Выполняем инженерно-геодезические, топографичские работы любой сложности в кратчайшие сроки и с высочайшим качеством<br>
+                Используем высокоточное, поверенное оборудование<br>
+                Применяем только лицензионное программное обеспечение<br>
+                Сотрудничаем с многими архитектурными, проектными и строительными организациями<br>
+            </p>
+        </div>
+    </div>
+
+    <div class="block block_2" id="services">
+        <div class="services">
+            <p class="block_text block_text_2">
+                УСЛУГИ
+            </p>
+            <ul class="list-of-services">
+                <li class="list-item popup-link">Топографическая съемка местности</li>
+                <li class="list-item popup-link">Цифровая модель местности</li>
+                <li class="list-item popup-link">Вынос границ в натуру</li>
+                <li class="list-item popup-link">Исполнительная съемка инженерных сетей</li>
+                <li class="list-item popup-link">Исполнительная съемка благоустройства</li>
+                <li class="list-item popup-link">Исполнительная съемка фасадов</li>
+                <li class="list-item popup-link">Выполнение планово-высотной посадки зданий и сооружений</li>
+                <li class="list-item popup-link">Геодезическое сопровождение в строительстве</li>
+                <li class="list-item popup-link">Развитие геодезической разбивочной основы для строительства</li>
+                <li class="list-item popup-link">Вынос осей в натуру</li>
+                <li class="list-item popup-link">Разбивочные работы</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="block block_3" id="reviews">
+        <div class="reviews_">
+            <p class="block_text_3">
+                ОТЗЫВЫ
+            </p>
+        </div>
+    </div>
+
+    <div id="partners" class="wrapper position-relative" >
+        <div id=IndexPartnersInner>
+            <h2 class="our_partners">Наши партнеры</h2>
+            <div id=IndexPartnersLogo>
+                <div class=IndexPartnersLogoB>
+                    <a  target="_blank"><img src="/img/partners_logo/Vitalur».png"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/Filial_BNTU.jpg"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/Gammi.webp"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/Dana_Astra.jpg"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/EU_torg_company.png"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/molokozavod_n1.webp"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/Yauda.jpg"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/Izumrud_stroi.gif"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/Respect_proekt.png"></a>
+                </div>
+                <div class=IndexPartnersLogoB>
+                    <a target="_blank"><img src="/img/partners_logo/KMstroi.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="certificates" id="certificates">
+        <div class="certificate" onclick="openFile('certificates/АттестатИПГузенков%20И.И.%20ИЗ-0000724.pdf')">
+            <img src="certificates/jpg_copy/1.jpg" alt="АттестатИПГузенков И.И. ИЗ-0000724">
+        </div>
+        <div class="certificate" onclick="openFile('certificates/АттестатИПГузенков%20И.И.%20СТ-0014826.pdf')">
+            <img src="certificates/jpg_copy/2.jpg" alt="АттестатИПГузенков И.И. СТ-0014826">
+        </div>
+        <div class="certificate" onclick="openFile('certificates/Свид-во%20о%20тех.%20компитенции.pdf')">
+            <img src="certificates/jpg_copy/3.jpg" alt="Свид-во о тех. компетенции">
+        </div>
+        <div class="certificate" onclick="openFile('certificates/Свидетельство%20о%20гос.%20регистрации.pdf')">
+            <img src="certificates/jpg_copy/4.jpg" alt="Свидетельство о гос. регистрации">
+        </div>
+    </div>
+
+    <script>
+        function openFile(filePath) {
+            window.open(filePath, '_blank');
+        }
+    </script>
+
+
+
+
+
+    <div class="additional_information">
+        <p class="add_info">
+            ДОП ИНФА<br>(может быть)
+        </p>
+    </div>
+
+
+    <script type="module" src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>
